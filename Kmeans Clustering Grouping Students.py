@@ -34,7 +34,7 @@ plt.scatter(students_df['Math'], students_df['Science'], c=students_df['Cluster'
 
 plt.scatter(cluster_centers_original[:, 0], cluster_centers_original[:, 1], c='red', marker='X', s=200, label='Centroids')
 
-plt.title('KMeans Clustering of Students Based on Grades (3 Clusters with Standardization)')
+plt.title('KMeans Clustering of Students Based on Grades')
 plt.xlabel('Math Grades')
 plt.ylabel('Science Grades')
 plt.legend()
